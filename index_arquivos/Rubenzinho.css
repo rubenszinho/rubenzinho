@@ -6,7 +6,7 @@ html {
     font-style: normal;
     font-family: "Trebuchet MS" , sans-serif;
     
-    font-size: 300%;
+    font-size: 270%;
     background: url(https://lh3.googleusercontent.com/d4gmgIKgTjKM4sab6C1kG1ckGXNp46LVNM4d08vsWBnqbWIqQq6jpvXuJAOhZVPjvnmabdN0TUQVAUILvcc6Fstc6Hns6VYbhqBINnEWsKt_YpASW_0QjIZpPwahHooYuTenwXo5=w2400) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -16,12 +16,14 @@ html {
     url("https://lh3.googleusercontent.com/d4gmgIKgTjKM4sab6C1kG1ckGXNp46LVNM4d08vsWBnqbWIqQq6jpvXuJAOhZVPjvnmabdN0TUQVAUILvcc6Fstc6Hns6VYbhqBINnEWsKt_YpASW_0QjIZpPwahHooYuTenwXo5=w2400");
 }
 
+
+
 .title {
     font-style: normal;
     font-weight: bold;
     position: relative;
     padding: 10px 10px 10px 10px;
-    font-size: 200%;
+    font-size: 160%;
     color : rgb(242, 93, 255)
 }
 
@@ -45,11 +47,16 @@ html {
     font-size: 200%;
     padding: 10px 10px 10px 30px;
 }
-
+.about {
+    position: relative;
+    color: rgb(255, 255, 255);
+    padding: 50px 10px 10px 30px;
+}
 .bi-key {
     position: relative;
     top: 20px;
     margin: 3px;
+    padding: 10px 10px 10px 30px;
     color: rgb(255, 255, 255);
     font-size: 200%;
 }
@@ -62,7 +69,12 @@ key {
     font-size: 100%;
 }
 
-footer {
-    position: relative;
-    color :rgb(255, 255, 255)
-}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(204, 79, 216);
+    color: white;
+    text-align: center;
+  }
