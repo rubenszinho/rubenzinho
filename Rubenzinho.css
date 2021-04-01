@@ -19,12 +19,12 @@ html {
     height: 300px;
     width: 300px;
 }
-  .bi-key {
+.bi-key {
   height: 300px;
   width: 300px;
 }
 
-h1 {
+.title {
     color : rgb(255, 149, 255)
 }
 
