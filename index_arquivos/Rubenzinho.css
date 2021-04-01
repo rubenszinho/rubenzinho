@@ -1,28 +1,29 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css");
 
 html {
-    position: fixed;
+    text-align: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 25%;
     background: url(https://lh3.googleusercontent.com/d4gmgIKgTjKM4sab6C1kG1ckGXNp46LVNM4d08vsWBnqbWIqQq6jpvXuJAOhZVPjvnmabdN0TUQVAUILvcc6Fstc6Hns6VYbhqBINnEWsKt_YpASW_0QjIZpPwahHooYuTenwXo5=w2400) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-image: linear-gradient(rgba(132, 0, 144, 0.568), rgba(0, 0, 0, 0.701)),
-                  url("https://lh3.googleusercontent.com/d4gmgIKgTjKM4sab6C1kG1ckGXNp46LVNM4d08vsWBnqbWIqQq6jpvXuJAOhZVPjvnmabdN0TUQVAUILvcc6Fstc6Hns6VYbhqBINnEWsKt_YpASW_0QjIZpPwahHooYuTenwXo5=w2400");
+    url("https://lh3.googleusercontent.com/d4gmgIKgTjKM4sab6C1kG1ckGXNp46LVNM4d08vsWBnqbWIqQq6jpvXuJAOhZVPjvnmabdN0TUQVAUILvcc6Fstc6Hns6VYbhqBINnEWsKt_YpASW_0QjIZpPwahHooYuTenwXo5=w2400");
 }
 
 .title {
     position: relative;
-    top: 40px; left: 15%;
     padding: 10px 10px 10px 10px;
-    margin: 5px;
+    margin: 0px;
     font-size: 200%;
     color : rgb(242, 93, 255)
 }
 
 .bi-github {
     position: relative;
-    top: 80px; left: 46%;
     color: rgb(242, 93, 255);
     border: 5px solid rgb(242, 93, 255);
     margin: 0px;
@@ -32,7 +33,6 @@ html {
 
 .bi-linkedin {
     position: relative;
-    top: 80px; left: 45%;
     color: rgb(242, 93, 255);
     border: 5px solid rgb(242, 93, 255);
     margin: 0px;
@@ -42,7 +42,6 @@ html {
 
 .bi-telegram {
     position: relative;
-    top: 80px; left: 44%;
     color: rgb(242, 93, 255);
     border: 5px solid rgb(242, 93, 255);
     margin: 0px;
@@ -52,7 +51,7 @@ html {
 
 .bi-key {
     position: relative;
-    top: 150px; left: -5%;
+    top: 7px;
     margin: 3px;
     color: rgb(255, 255, 255);
     font-size: 200%;
@@ -60,13 +59,13 @@ html {
 
 key {
     position: relative;
-    top: 143px; left: -5%;
+    /*top: 143px; left: -5%;*/
     color: rgb(255, 255, 255);
     font-size: 100%;
 }
 
 footer {
-        position: relative;
-    top: 150px; left: 35%;
+    position: relative;
+    /*top: 150px; left: 9%;*/
     color :rgb(255, 255, 255)
 }
