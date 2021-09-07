@@ -1,0 +1,29 @@
+.leftcolumn {
+    float: left;
+    width: 100%;
+}
+
+.about {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: auto;
+    color: #B8D0EB;
+}
+
+.ico{
+    font-size: 56px;
+    line-height: 7rem;
+}
+
+.ico a:hover {
+    color: #F59CA9;
+}
+
+.ico a {
+    color: #B8D0EB;
+}
+
+.space {
+    margin-left: 3rem;
+}

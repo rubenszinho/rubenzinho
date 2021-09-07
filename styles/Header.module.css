@@ -1,0 +1,12 @@
+.header {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    color: #B8D0EB;
+}
+
+.hr_header {
+    width: 100%;
+    margin-bottom: 15px;
+    border: 3px solid #F59CA9;
+}

@@ -1,24 +1,20 @@
-html,
+@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@5.2/distr/fira_code.css);
+html {
+    margin: 3rem;
+}
+
 body {
-    --bg-color: #25272A;
-    background-color: var(--bg-color);
-    padding: 0;
-    margin: 0;
-    font-family: Fira Code, serif;
+    font-family: Fira Code;
+    background-color: #25272A;
 }
 
-@font-face {
-    font-family: 'Fira Code';
-    src: url('../woff2/FiraCode-Light.woff2') format('woff2'), url("../woff/FiraCode-Light.woff") format("woff");
-    font-weight: 300;
-    font-style: normal;
-}
-
-a {
-    color: inherit;
-    text-decoration: none;
+.main {
+    margin-left: 160px;
+    margin-right: 0px;
 }
 
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
