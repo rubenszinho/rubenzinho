@@ -1,11 +1,14 @@
 .footer {
     bottom: 0;
     position: fixed;
-    min-width: 100%;
-    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    left: 20%;
     font-style: normal;
     font-weight: normal;
-    font-size: 1vw;
+    font-size: 1.5vw;
     color: #B8D0EB;
     text-align: center;
     background-color: #25272A;
@@ -14,9 +17,9 @@
 .hr_footer {
     border: 0.2vw solid #F59CA9;
     height: 1px;
-    margin-bottom: 2px;
+    margin-bottom: 0.5vw;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 80%;
 }
