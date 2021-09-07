@@ -1,4 +1,5 @@
 @import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@5.2/distr/fira_code.css);
+
 html {
     margin: 3rem;
 }
@@ -9,7 +10,7 @@ body {
 }
 
 .main {
-    margin-left: 160px;
+    margin-left: 8vw;
     margin-right: 0px;
 }
 

@@ -6,14 +6,14 @@
 .about {
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 2vw;
     line-height: auto;
     color: #B8D0EB;
 }
 
 .ico{
-    font-size: 56px;
-    line-height: 7rem;
+    font-size: 4vw;
+    line-height: 8vw;
 }
 
 .ico a:hover {
@@ -25,5 +25,5 @@
 }
 
 .space {
-    margin-left: 3rem;
+    margin-left: 2vw;
 }

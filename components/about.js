@@ -10,7 +10,7 @@ export default function About() {
                 Undergrad Student at Computer Engineering | USP (University of São Paulo)
                 <br />
                 <div className={classe.ico}>
-                    <Link href="https://www.linkedin.com/in/samuel-rubens-37b385197/"><a><SiLinkedin /></a></Link>
+                    <Link href="https://www.linkedin.com/in/samuel-rubens-37b385197/"><a className={classe.space}><SiLinkedin /></a></Link>
                     <Link href="https://github.com/rubenszinho"><a className={classe.space}><SiGithub /></a></Link>
                     <Link href="https://t.me/Rubenszinho"><a className={classe.space}><ImTelegram /></a></Link>
                 </div>
