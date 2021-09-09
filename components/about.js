@@ -7,7 +7,7 @@ export default function About() {
     return (
         <div className={classe.leftcolumn}>
             <section className={classe.about}>
-                Undergrad Student at Computer Engineering | USP (University of São Paulo)
+                Undergrad Student in Computer Engineering | USP (University of São Paulo)
                 <br />
                 <div className={classe.ico}>
                     <Link href="https://www.linkedin.com/in/samuel-rubens-37b385197/"><a><SiLinkedin /></a></Link>
